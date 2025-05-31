@@ -1,13 +1,3 @@
-"""
-CodeChameleon Class
-============================================
-A novel framework for jailbreaking in LLMs based on
-personalized encryption and decryption.
-
-Paper title: CodeChameleon: Personalized Encryption Framework for Jailbreaking Large Language Models
-arXiv Link: https://arxiv.org/abs/2402.16717
-"""
-
 import logging
 import os.path
 import time
@@ -39,12 +29,12 @@ from jailbreak.attacker import AttackerBase
 from jailbreak.datasets import JailbreakDataset, Instance
 from jailbreak.mutation.rule import *
 
-__all__ = ['CodeChameleon']
+__all__ = ['Adaptive']
 
 
-class CodeChameleon(AttackerBase):
+class Adaptive(AttackerBase):
     r"""
-    Implementation of CodeChameleon Jailbreak Challenges in Large Language Models
+    Implementation of Adaptive Jailbreak Challenges in Large Language Models
     """
 
     def __init__(self, attack_model, target_model, eval_model, jailbreak_datasets, log_time=False):

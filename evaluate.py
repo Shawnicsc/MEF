@@ -105,17 +105,13 @@ def process_csv_with_kimi(csv_file_path, user_prompt, api_key):
         print(f"创建备份文件时出错: {e}")
 
 def main():
-    """主函数"""
-    print("=" * 50)
-    print("CSV文件Kimi响应处理工具")
     print("=" * 50)
 
     # 用户输入API密钥
-    api_key = "sk-ssxAWaNr52a9h15j3WU6ZwAEGtSfnWBXIW5NMtoOHeK54Nw6"
+    api_key = ""
 
     # 用户输入提示词和CSV文件路径
-    # 修改：不再需要 user_prompt，但函数签名保留以兼容
-    user_prompt = "" # 可以清空或保留，但不再用于拼接
+    user_prompt = "" 
 
     csv_file_path = "./mutated_prompts_for1.csv"
 

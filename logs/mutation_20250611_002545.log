@@ -1,0 +1,19 @@
+2025-06-11 00:25:45,157 - INFO - 日志将保存到: /home/shawni/Documents/MyProject/ADAPTIVE-JAILBREAKING-STRATEGIES/logs/mutation_20250611_002545.log
+2025-06-11 00:25:45,157 - INFO - 提示词变异耗时: 0.07毫秒
+2025-06-11 00:25:45,157 - INFO - 变异结果已保存至: /home/shawni/Documents/MyProject/ADAPTIVE-JAILBREAKING-STRATEGIES/single_result.jsonl
+2025-06-11 00:25:45,157 - INFO - 日志将保存到: /home/shawni/Documents/MyProject/ADAPTIVE-JAILBREAKING-STRATEGIES/logs/mutation_20250611_002545.log
+2025-06-11 00:25:45,157 - INFO - 开始批量变异 2 个提示词...
+2025-06-11 00:25:45,158 - INFO - 处理第 1/2 个提示词
+2025-06-11 00:25:45,158 - INFO - 提示词变异耗时: 0.03毫秒
+2025-06-11 00:25:45,158 - INFO - 处理第 2/2 个提示词
+2025-06-11 00:25:45,158 - INFO - 提示词变异耗时: 0.02毫秒
+2025-06-11 00:25:45,158 - INFO - 批量变异完成，总耗时: 0.17毫秒
+2025-06-11 00:25:45,158 - INFO - 变异结果已保存至: /home/shawni/Documents/MyProject/ADAPTIVE-JAILBREAKING-STRATEGIES/batch_results.jsonl
+2025-06-11 00:25:45,158 - INFO - 日志将保存到: /home/shawni/Documents/MyProject/ADAPTIVE-JAILBREAKING-STRATEGIES/logs/mutation_20250611_002545.log
+2025-06-11 00:25:45,158 - INFO - 开始批量变异 2 个提示词...
+2025-06-11 00:25:45,158 - INFO - 处理第 1/2 个提示词
+2025-06-11 00:25:45,158 - INFO - 提示词变异耗时: 0.02毫秒
+2025-06-11 00:25:45,158 - INFO - 处理第 2/2 个提示词
+2025-06-11 00:25:45,158 - INFO - 提示词变异耗时: 0.02毫秒
+2025-06-11 00:25:45,158 - INFO - 批量变异完成，总耗时: 0.12毫秒
+2025-06-11 00:25:45,158 - INFO - 变异结果已保存至: /home/shawni/Documents/MyProject/ADAPTIVE-JAILBREAKING-STRATEGIES/custom_results.jsonl

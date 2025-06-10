@@ -26,7 +26,7 @@ Then，install the library we need.
 ```bash
 pip install -r requirements.txt
 ```
-Finally, there are two ways to use our method, in shell or jest change the default value.
+Finally, there are two ways to use our method, in shell or just change the default value.
 ```bash
 # in shell, you can choose your own dataset and output path.
 python prompt_mutator.py --input_file test.jsonl --output_file test.jsonl

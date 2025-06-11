@@ -122,8 +122,8 @@ if __name__ == '__main__':
     import argparse
 
     parser = argparse.ArgumentParser(description="Prompt Mutator")
-    parser.add_argument('--input_file', type=str, default= 'test.jsonl',help='Path to the input file (txt/jsonl)')
-    parser.add_argument('--output_file', type=str, default='test_results.jsonl', help='Path to save the mutated results')
+    parser.add_argument('--input_file', type=str, default= 'test2.jsonl',help='Path to the input file (txt/jsonl)')
+    parser.add_argument('--output_file', type=str, default='test2_results.jsonl', help='Path to save the mutated results')
     args = parser.parse_args()
 
     mutator = PromptMutator(log_time=True)
@@ -140,7 +140,25 @@ if __name__ == '__main__':
             elif input_path.endswith('.jsonl'):
                 import json
                 with open(input_path, 'r', encoding='utf-8') as f:
-                    prompts = [json.loads(line.strip())['query'] for line in f if line.strip()]
+                    prompts = []
+                    for line in f:
+                        try:
+                            if line.strip():
+                                # Remove comments and trailing commas before parsing
+                                # Clean the line by removing comments, null bytes and other invalid chars
+                                line = line.split('//')[0].strip()
+                                if line.endswith(','):
+                                    line = line[:-1]
+                                # Remove null bytes and other potentially problematic characters
+                                line = ''.join(char for char in line if ord(char) >= 32)
+                                if not line:
+                                    continue
+                                data = json.loads(line)
+                                if 'query' in data:
+                                    prompts.append(data['query'])
+                        except json.JSONDecodeError as je:
+                            logging.warning(f"跳过无效的JSON行: {line.strip()[:100]}...")
+                            continue
             else:
                 raise ValueError("只支持 .txt 或 .jsonl 格式的输入文件")
 

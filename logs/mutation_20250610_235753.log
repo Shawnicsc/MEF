@@ -1,8 +1,0 @@
-2025-06-10 23:57:53,256 - INFO - 日志将保存到: /home/shawni/Documents/MyProject/ADAPTIVE-JAILBREAKING-STRATEGIES/logs/mutation_20250610_235753.log
-2025-06-10 23:57:53,256 - INFO - 开始批量变异 2 个提示词...
-2025-06-10 23:57:53,256 - INFO - 处理第 1/2 个提示词
-2025-06-10 23:57:53,256 - INFO - 提示词变异耗时: 0.02毫秒
-2025-06-10 23:57:53,256 - INFO - 处理第 2/2 个提示词
-2025-06-10 23:57:53,257 - INFO - 提示词变异耗时: 0.01毫秒
-2025-06-10 23:57:53,257 - INFO - 批量变异完成，总耗时: 0.14毫秒
-2025-06-10 23:57:53,257 - INFO - 变异结果已保存至: /home/shawni/Documents/MyProject/ADAPTIVE-JAILBREAKING-STRATEGIES/mutation_results.jsonl

@@ -35,9 +35,9 @@ python prompt_mutator.py --input_file test.jsonl --output_file test.jsonl
 ## 🖊️ Citation
 
 ```la
-@misc{yu2025adaptivejailbreakingstrategiesbased,
-      title={Adaptive Jailbreaking Strategies Based on the Semantic Understanding Capabilities of Large Language Models}, 
-      author={Mingyu Yu and Wei Wang and Yanjie Wei and Sujuan Qin},
+@misc{yu2025mefcapabilityawaremultiencryptionframework,
+      title={MEF: A Capability-Aware Multi-Encryption Framework for Evaluating Vulnerabilities in Black-Box Large Language Models}, 
+      author={Mingyu Yu and Wei Wang and Yanjie Wei and Sujuan Qin and Fei Gao and Wenmin Li},
       year={2025},
       eprint={2505.23404},
       archivePrefix={arXiv},
